@@ -77,7 +77,6 @@
     <Compile Include="Tetris\Pieces\TPiece.cs" />
     <Compile Include="Tetris\Pieces\ZPiece.cs" />
     <Compile Include="Tetris\Pieces\ZRPiece.cs" />
-    <Compile Include="Tetris\RussianInterlocking.cs" />
     <Compile Include="Tetris\TetrisBoard.cs" />
   </ItemGroup>
   <ItemGroup>
@@ -98,7 +97,7 @@
   </Target>
   -->
   <PropertyGroup>
-    <PostBuildEvent>Copy "$(TargetPath)" "C:\Users\ppaab\AppData\Roaming\Grasshopper\Libraries\UselessComponents.gha"
+    <PostBuildEvent>Copy "$(TargetPath)" "C:\Users\ppaab\AppData\Roaming\Grasshopper\Libraries\RussianInterlockingSystem.gha"
 Erase "$(TargetPath)"</PostBuildEvent>
   </PropertyGroup>
   <PropertyGroup>
