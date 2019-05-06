@@ -42,7 +42,7 @@ namespace RussianInterlockingSystem
             get
             {
                 //Return a string identifying you or your company.
-                return "";
+                return "Pablo Alvarez";
             }
         }
         public override string AuthorContact
@@ -50,7 +50,7 @@ namespace RussianInterlockingSystem
             get
             {
                 //Return a string representing your preferred contact details.
-                return "";
+                return "www.linkedin.com/in/palvarezrio";
             }
         }
     }
